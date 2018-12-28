@@ -47,7 +47,7 @@ function UI(){}
     }
     
     // clear fields
-UI.prototype.clearFieds = function(){
+UI.prototype.clearFields = function(){
     document.getElementById('title').value = ''
     document.getElementById('author').value = ''
     document.getElementById('isbn').value = ''
@@ -76,7 +76,7 @@ function(e){
         //show success message
         ui.showAlert('Book Added', 'success');
         // clear book fields
-         ui.clearFieds();
+         ui.clearFields();
     }
     
         
